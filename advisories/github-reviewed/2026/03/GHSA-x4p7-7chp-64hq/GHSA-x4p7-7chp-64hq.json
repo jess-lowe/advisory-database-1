@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x4p7-7chp-64hq",
-  "modified": "2026-04-16T19:56:23Z",
+  "modified": "2026-04-16T19:56:24Z",
   "published": "2026-03-18T03:32:09Z",
   "aliases": [
     "CVE-2026-2603"
@@ -18,7 +18,7 @@
     {
       "package": {
         "ecosystem": "Maven",
-        "name": "org.keycloak:keycloak-services"
+        "name": "org.keycloak:keycloak-server-spi-private"
       },
       "ranges": [
         {
@@ -28,13 +28,51 @@
               "introduced": "0"
             },
             {
-              "fixed": "26.6.0"
+              "fixed": "26.2.14"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.keycloak:keycloak-server-spi-private"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "26.4.10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.keycloak:keycloak-server-spi-private"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "26.5.0"
+            },
+            {
+              "fixed": "26.5.6 "
             }
           ]
         }
       ],
       "database_specific": {
-        "last_known_affected_version_range": "<= 26.5.5"
+        "last_known_affected_version_range": "< 26.5.6"
       }
     },
     {
@@ -50,13 +88,13 @@
               "introduced": "0"
             },
             {
-              "fixed": "26.6.0"
+              "fixed": " 26.6.0 "
             }
           ]
         }
       ],
       "database_specific": {
-        "last_known_affected_version_range": "<= 26.5.5"
+        "last_known_affected_version_range": "< 26.6.0"
       }
     }
   ],
