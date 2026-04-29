@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w5hq-g745-h8pq",
-  "modified": "2026-04-22T20:53:24Z",
+  "modified": "2026-04-22T20:53:25Z",
   "published": "2026-04-22T20:53:24Z",
   "aliases": [],
   "summary": "uuid: Missing buffer bounds check in v3/v5/v6 when buf is provided",
@@ -26,7 +26,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "14.0.0"
+              "fixed": "13.0.1"
             }
           ]
         }
@@ -43,8 +43,16 @@
       "url": "https://github.com/uuidjs/uuid/commit/3d2c5b0342f0fcb52a5ac681c3d47c13e7444b34"
     },
     {
+      "type": "WEB",
+      "url": "https://github.com/uuidjs/uuid/commit/9d27ddf7046ce496ef39569ff84d948eeff9cb2a"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/uuidjs/uuid"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/uuidjs/uuid/releases/tag/v13.0.1"
     },
     {
       "type": "WEB",
