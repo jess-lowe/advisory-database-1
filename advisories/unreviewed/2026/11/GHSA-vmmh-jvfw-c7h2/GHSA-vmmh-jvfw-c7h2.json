@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vmmh-jvfw-c7h2",
-  "modified": "2026-11-09T09:31:42Z",
+  "modified": "2026-11-09T15:32:06Z",
   "published": "2026-11-09T09:31:42Z",
   "aliases": [
     "CVE-2026-121759"
   ],
   "details": "The Fusion Page Builder WordPress plugin before 1.7.1 does not check that the user owns the content it moves to the trash, which could allow users with a role as low as Contributor to trash arbitrary posts and pages, or delete them permanently where the trash is disabled.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:H/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-639"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-11-09T07:17:28Z"

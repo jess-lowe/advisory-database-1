@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cj6w-mcmr-jvmh",
-  "modified": "2026-11-09T09:31:42Z",
+  "modified": "2026-11-09T15:32:05Z",
   "published": "2026-11-09T09:31:42Z",
   "aliases": [
     "CVE-2026-115213"
   ],
   "details": "The EASY-JS-WPAPI Client HANDLE for the WordPress REST-API WordPress plugin through 2.0 does not prevent the administrator credentials it stores from being disclosed to unauthenticated users and does not correctly verify authentication, allowing unauthenticated attackers to obtain administrator credentials and gain full administrator access to the site.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-287"
+    ],
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-11-09T07:17:27Z"

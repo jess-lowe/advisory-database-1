@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-3qxg-mfwq-q6pp",
+  "modified": "2026-11-09T15:32:11Z",
+  "published": "2026-11-09T15:32:11Z",
+  "aliases": [
+    "CVE-2026-124916"
+  ],
+  "details": "PrestaShop contains an authenticated PHP code injection vulnerability in the back-office Performance debug-mode configuration. A back-office user with permission to modify debug settings can supply a crafted `debug_cookie_name` or `debug_cookie_value` that is written without sufficient escaping into a PHP configuration file. When PrestaShop subsequently loads the generated file, the injected PHP code is executed with the privileges of the web-server process.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://github.com/PrestaShop/PrestaShop/security/advisories/GHSA-95f5-jc9c-gg3q"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124916"
+    },
+    {
+      "type": "WEB",
+      "url": "https://prestashop.com"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-11-09T15:17:19Z"
+  }
+}
