@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qqq9-5j87-rw35",
-  "modified": "2026-11-04T00:32:21Z",
+  "modified": "2026-11-09T21:31:40Z",
   "published": "2026-11-04T00:32:21Z",
   "aliases": [
     "CVE-2026-120634"
   ],
   "details": "CGI::Carp versions before 5.00 for Perl leak warnings across requests in persistent environments via the warningsToBrowser buffer.\n\nWarnings are held in a package-level buffer until warningsToBrowser writes them into the page as HTML comments, and the buffer is never cleared between requests. Under mod_perl, FastCGI or PSGI, warnings from one request are written into a later one.\n\nWarnings that contain one user's request data can appear in the HTML sent to another user.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -31,7 +36,7 @@
     "cwe_ids": [
       "CWE-488"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-11-04T00:17:24Z"
