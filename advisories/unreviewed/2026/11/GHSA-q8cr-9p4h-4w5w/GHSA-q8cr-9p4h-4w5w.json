@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-q8cr-9p4h-4w5w",
+  "modified": "2026-11-09T09:31:43Z",
+  "published": "2026-11-09T09:31:43Z",
+  "aliases": [
+    "CVE-2026-123128"
+  ],
+  "details": "The GemBooking  WordPress plugin before 1.7.1 does not serialise concurrent booking requests per team member, allowing unauthenticated users to create overlapping confirmed bookings for the same team member across different bookable items by sending simultaneous requests.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123128"
+    },
+    {
+      "type": "WEB",
+      "url": "https://wpscan.com/vulnerability/e6dd290d-358b-4d03-a585-173d40dee0ba"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-11-09T07:17:29Z"
+  }
+}

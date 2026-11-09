@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-cj6w-mcmr-jvmh",
+  "modified": "2026-11-09T09:31:42Z",
+  "published": "2026-11-09T09:31:42Z",
+  "aliases": [
+    "CVE-2026-115213"
+  ],
+  "details": "The EASY-JS-WPAPI Client HANDLE for the WordPress REST-API WordPress plugin through 2.0 does not prevent the administrator credentials it stores from being disclosed to unauthenticated users and does not correctly verify authentication, allowing unauthenticated attackers to obtain administrator credentials and gain full administrator access to the site.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115213"
+    },
+    {
+      "type": "WEB",
+      "url": "https://wpscan.com/vulnerability/7aa5096b-017a-4326-8653-5d6749efb390"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-11-09T07:17:27Z"
+  }
+}
