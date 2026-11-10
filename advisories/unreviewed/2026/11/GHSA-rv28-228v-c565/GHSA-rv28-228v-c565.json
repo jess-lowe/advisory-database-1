@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rv28-228v-c565",
-  "modified": "2026-11-09T21:32:03Z",
+  "modified": "2026-11-10T03:30:24Z",
   "published": "2026-11-09T21:32:03Z",
   "aliases": [
     "CVE-2026-119078"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread.html/ol71kdgopfxwlxgqmkd0jrfcw05wdq5z"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/11/09/29"
     }
   ],
   "database_specific": {
