@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xxcj-wcr3-qvg7",
-  "modified": "2026-11-05T18:33:13Z",
+  "modified": "2026-11-10T00:31:27Z",
   "published": "2026-11-05T18:33:13Z",
   "aliases": [
     "CVE-2026-122327"
@@ -46,6 +46,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/Arthi-chaud/Meelo/blob/v3.13.1/server/src/video/video.controller.ts#L131-L149"
+    },
+    {
+      "type": "WEB",
+      "url": "https://hackmd.io/@hieund/cve-2026-122327-meelo-catalog-metadata-write-missing-admin-authz"
     },
     {
       "type": "WEB",

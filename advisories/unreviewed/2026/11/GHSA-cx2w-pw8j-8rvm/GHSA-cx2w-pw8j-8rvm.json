@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cx2w-pw8j-8rvm",
-  "modified": "2026-11-03T21:32:29Z",
+  "modified": "2026-11-10T00:31:21Z",
   "published": "2026-11-03T21:32:29Z",
   "aliases": [
     "CVE-2026-61495"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/hathach/tinyusb/commit/e85c2b8affa1efbf00d398d59e7a87d3e61cc4a9"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gist.github.com/Shukhrat-03/8fe6e5881614a7f86b5d2b87d44ea706"
     },
     {
       "type": "WEB",
