@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4rpj-w8fh-483q",
-  "modified": "2026-11-06T21:31:29Z",
+  "modified": "2026-11-10T21:31:55Z",
   "published": "2026-11-06T21:31:29Z",
   "aliases": [
     "CVE-2026-124026"
@@ -42,6 +42,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/karlomikus/bar-assistant/releases/tag/v6.11.0"
+    },
+    {
+      "type": "WEB",
+      "url": "https://hackmd.io/@hieund/cve-2026-124026-bar-assistant-cocktail-copy-cross-bar-idor"
     },
     {
       "type": "WEB",

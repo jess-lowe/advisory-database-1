@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-84j6-j2xp-crm8",
-  "modified": "2026-11-06T21:31:20Z",
+  "modified": "2026-11-10T21:31:52Z",
   "published": "2026-11-06T12:30:46Z",
   "aliases": [
     "CVE-2026-49939"
   ],
   "details": "In Apache James server prior version 3.9.1 improper Access Control List processing is exposed by the JMAP protocol which do not account for negative rules positionned by IMAP protocol.\n\nThis results in users being able to administer folders in JMAP despite having being explicitly denied the right to do so in IMAP.\n\nUsers are recommended to upgrade to version 3.9.1 which fixes this issue.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -27,7 +32,7 @@
     "cwe_ids": [
       "CWE-284"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-11-06T12:17:21Z"

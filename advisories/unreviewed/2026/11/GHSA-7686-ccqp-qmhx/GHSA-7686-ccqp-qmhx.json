@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7686-ccqp-qmhx",
-  "modified": "2026-11-06T18:35:06Z",
+  "modified": "2026-11-10T21:31:46Z",
   "published": "2026-11-03T15:31:50Z",
   "aliases": [
     "CVE-2026-99270"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/b3b56e95f6fad7fa7281450b443e861d82616fdb"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/f7fba81b00699360f96ed7d9a47b8c801e74c6f9"
     }
   ],
   "database_specific": {

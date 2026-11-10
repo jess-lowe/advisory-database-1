@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9w8j-fg77-whw7",
-  "modified": "2026-08-19T18:32:50Z",
+  "modified": "2026-11-10T21:31:35Z",
   "published": "2026-08-19T18:32:50Z",
   "aliases": [
     "CVE-2026-20320"
@@ -21,7 +21,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://malbearlabs.com/posts/operation-snowball-inside-an-autonomous-ai-intrusion-campaign"
+    },
+    {
+      "type": "WEB",
       "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-bworks-xxe-uwUd7CEt"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-20320"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m889-vhr2-v9vx",
-  "modified": "2026-11-07T15:30:28Z",
+  "modified": "2026-11-10T21:31:59Z",
   "published": "2026-11-07T15:30:28Z",
   "aliases": [
     "CVE-2026-99271"
@@ -25,6 +25,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/aa118c8f61d59387961d58ffae831c5259a9f222"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/d063975ed22cdc2cb609a9828e5f658448193606"
     }
   ],
   "database_specific": {

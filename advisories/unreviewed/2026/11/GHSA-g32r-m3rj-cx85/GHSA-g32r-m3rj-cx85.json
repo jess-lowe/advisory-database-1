@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g32r-m3rj-cx85",
-  "modified": "2026-11-10T15:33:30Z",
+  "modified": "2026-11-10T21:32:11Z",
   "published": "2026-11-10T15:33:30Z",
   "aliases": [
     "CVE-2026-124908"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://www.mozilla.org/security/advisories/mfsa2026-125"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.mozilla.org/security/advisories/mfsa2026-128"
     }
   ],
   "database_specific": {

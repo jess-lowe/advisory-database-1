@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9fcr-mp7p-hprv",
-  "modified": "2026-11-02T15:31:31Z",
+  "modified": "2026-11-10T21:31:44Z",
   "published": "2026-11-02T15:31:31Z",
   "aliases": [
     "CVE-2026-116606"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://trust.barracuda.com/security/pre-authentication-authorization-bypass-command-injection"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-116606"
     }
   ],
   "database_specific": {

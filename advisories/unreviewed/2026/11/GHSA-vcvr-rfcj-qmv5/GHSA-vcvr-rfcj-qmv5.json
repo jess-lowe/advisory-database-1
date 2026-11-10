@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vcvr-rfcj-qmv5",
-  "modified": "2026-11-10T15:33:22Z",
+  "modified": "2026-11-10T21:32:08Z",
   "published": "2026-11-10T15:33:22Z",
   "aliases": [
     "CVE-2026-124867"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://www.mozilla.org/security/advisories/mfsa2026-125"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.mozilla.org/security/advisories/mfsa2026-128"
     }
   ],
   "database_specific": {

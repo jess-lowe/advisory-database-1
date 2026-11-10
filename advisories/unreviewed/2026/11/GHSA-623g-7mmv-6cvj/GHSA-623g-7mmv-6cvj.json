@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-623g-7mmv-6cvj",
-  "modified": "2026-11-10T15:33:27Z",
+  "modified": "2026-11-10T21:32:10Z",
   "published": "2026-11-10T15:33:27Z",
   "aliases": [
     "CVE-2026-124887"
@@ -30,6 +30,14 @@
     {
       "type": "WEB",
       "url": "https://www.mozilla.org/security/advisories/mfsa2026-127"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.mozilla.org/security/advisories/mfsa2026-128"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.mozilla.org/security/advisories/mfsa2026-129"
     }
   ],
   "database_specific": {

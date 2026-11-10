@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7j7p-grhm-j8xq",
-  "modified": "2026-11-06T21:31:20Z",
+  "modified": "2026-11-10T21:31:52Z",
   "published": "2026-11-06T12:30:47Z",
   "aliases": [
     "CVE-2026-85108"
   ],
   "details": "Allocation of Resources Without Limits or Throttling in Apache James Mime4J library prior version 0.8.15 allows Denial of Service upon parsing Mime messages.\nUsers are recommended to upgrade to version 0.8.15 which fixes the issue by enforcing new limits and providing better defaults.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -27,7 +32,7 @@
     "cwe_ids": [
       "CWE-770"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-11-06T12:17:23Z"
