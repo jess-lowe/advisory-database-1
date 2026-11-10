@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-59cr-x47x-655x",
-  "modified": "2026-11-05T15:32:32Z",
+  "modified": "2026-11-10T18:31:14Z",
   "published": "2026-11-05T15:32:32Z",
   "aliases": [
     "CVE-2026-100168"
   ],
   "details": "Direct Request ('Forced Browsing') in the Content Manager component in Apache OFBiz 24.09.07 on all platforms allows an authenticated user holding only view-only content permissions (OFBTOOLS_VIEW and CONTENTMGR_VIEW) to re-parent content associations they do not own or manage via a direct POST request to the moveContentJson endpoint, which performs no permission check, unlike the equivalent updateContent/createContentAssoc/removeContentAssoc services that require genericContentPermission UPDATE. Users are recommended to upgrade to version 24.09.08, which fixes this issue.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-425"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-11-05T14:16:58Z"
