@@ -18,7 +18,7 @@
     {
       "package": {
         "ecosystem": "Go",
-        "name": "https://github.com/strukturag/libheif"
+        "name": "github.com/strukturag/libheif"
       },
       "ranges": [
         {
@@ -66,7 +66,7 @@
     },
     {
       "type": "PACKAGE",
-      "url": "github.com/strukturag/libheif"
+      "url": "https://github.com/strukturag/libheif"
     }
   ],
   "database_specific": {
