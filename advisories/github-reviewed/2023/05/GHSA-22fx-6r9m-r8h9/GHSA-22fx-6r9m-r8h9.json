@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-22fx-6r9m-r8h9",
-  "modified": "2025-01-29T22:00:08Z",
+  "modified": "2025-01-29T22:00:09Z",
   "published": "2023-05-05T18:30:17Z",
   "aliases": [
     "CVE-2023-29659"
@@ -18,7 +18,7 @@
     {
       "package": {
         "ecosystem": "Go",
-        "name": "github.com/strukturag/libheif"
+        "name": "https://github.com/strukturag/libheif"
       },
       "ranges": [
         {
